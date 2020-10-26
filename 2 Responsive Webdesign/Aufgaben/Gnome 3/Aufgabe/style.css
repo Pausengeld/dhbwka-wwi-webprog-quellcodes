@@ -17,11 +17,40 @@ a:hover {
     color: white;
     text-decoration: underline;
 }
+section {
+    padding: 3em;
+}
 
+h1 {
+    font-size: 180%;
+}
 /*
  * Navigationsleiste
  */
+ #bild{
+    width: 4em;
+  }
 
+  #navb {
+    background: #4A86CF;
+    padding: 0;
+    font-size: 120%;
+  }
+
+ #navb .nav-link{
+   color: #F1F4F8;
+ }
+
+ #navb .active{
+   background: #3968A1;
+ }
+
+ #navb a:hover{
+   color: #3F4D5F;
+ }
+ #navb li:hover{
+   background: #6E9ED9;
+ }
 
 /*
  * Hauptbereich mit kleinen Screenshots und Texten
@@ -31,7 +60,40 @@ main {
     color: #555555;
 }
 
+section.felder {
+    border: 0px solid #C9C9C9;
+    border-top-width: 1px;
+    font-size: 11pt;
+}
+
+section.felder h4 {
+  color: black;
+  font-weight: bold;
+}
+
+#text-unten h4 {
+    color: #0489B7;
+    font-weight: bold;
+}
+
 
 /*
  * Fußbereich mit weiteren Links
  */
+ footer {
+   background: #000000;
+   color: #919191;
+   font-size: 110%;
+ }
+
+ footer a:hover{
+   color:#FFFFFF;
+ }
+
+ footer .dick{
+   font-weight: bold;
+ }
+
+ footer ul{
+   padding:0;
+ }
